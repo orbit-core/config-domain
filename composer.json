@@ -1,0 +1,23 @@
+{
+  "name": "orbit-core/config-domain",
+  "description": "Orbit Core: ConfigDomain",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Bertram",
+      "email": "contact@mibexx.de"
+    }
+  ],
+  "require": {
+    "orbit-core/infrastructure": "dev-master"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "OrbitCore\\": "src/",
+      "OrbitCoreTest\\": "tests/"
+    }
+  }
+}

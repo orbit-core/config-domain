@@ -1,0 +1,23 @@
+namespace: OrbitCoreTest\ConfigDomain
+
+paths:
+  tests: .
+  data: ../../_data
+  support: _support
+  log: ../../_output
+
+coverage:
+  enabled: true
+  remote: false
+  whitelist:
+    include:
+      - '../../../src/*'
+
+suites:
+  Domain:
+    path: Domain
+    class_name: ConfigDomainDomainTester
+    modules:
+      enabled:
+        - Asserts
+        - \OrbitCoreTest\Infrastructure\_support\Helper\Resolver\ResolverHelper
