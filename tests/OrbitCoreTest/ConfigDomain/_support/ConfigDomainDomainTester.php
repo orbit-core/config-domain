@@ -60,6 +60,7 @@ class ConfigDomainDomainTester extends \Codeception\Actor
             )
         );
 
+        /** @var \OrbitCore\Infrastructure\Container\ContainerInterface $container */
         $container = Stub::makeEmpty(
             ContainerInterface::class,
             [
